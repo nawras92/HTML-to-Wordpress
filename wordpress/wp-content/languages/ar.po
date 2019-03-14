@@ -36,7 +36,7 @@ msgstr "٬"
 msgid "number_format_decimal_point"
 msgstr "."
 
-#: wp-includes/functions.php:6882
+#: wp-includes/functions.php:6884
 msgid "Update PHP"
 msgstr "تحديث PHP"
 
@@ -54,7 +54,7 @@ msgid "REST API routes must be registered on the %s action."
 msgstr "مسارات الـ REST API يجب أن تكون مسجلة عبر الإجراء %s."
 
 #. translators: used to join last two items in a list with more than 2 times
-#: wp-includes/formatting.php:4907
+#: wp-includes/formatting.php:4909
 msgid "%1$s, and %2$s"
 msgstr "%1$s، و %2$s"
 
@@ -150,7 +150,7 @@ msgid "The site appears to be already uninitialized."
 msgstr "يبدو أن الموقع غير مهيأ بالفعل."
 
 #. translators: used to join items in a list with more than 2 items
-#: wp-includes/formatting.php:4905
+#: wp-includes/formatting.php:4907
 msgid "%1$s, %2$s"
 msgstr "%1$s، %2$s"
 
@@ -2828,7 +2828,7 @@ msgstr "جميع المكوّنات"
 #. translators: accessibility text
 #: wp-includes/widgets/class-wp-widget-custom-html.php:310
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
-#: wp-includes/functions.php:6884
+#: wp-includes/functions.php:6886
 #: wp-includes/class-wp-customize-manager.php:4270
 #: wp-includes/class-wp-customize-manager.php:5572
 #: wp-includes/class-wp-customize-manager.php:5593
@@ -3465,7 +3465,7 @@ msgid "Invalid action name."
 msgstr "اسم الإجراء غير صالح."
 
 #. translators: %d: Comment ID
-#: wp-includes/comment.php:3501
+#: wp-includes/comment.php:3503
 msgid "Comment %d contains personal data but could not be anonymized."
 msgstr "التعليق %d يحتوي على بيانات شخصية ولكن غير ممكن أن تكون مجهول المصدر."
 
@@ -3573,39 +3573,39 @@ msgctxt "request status"
 msgid "Confirmed"
 msgstr "تم التأكيد"
 
-#: wp-includes/comment.php:3357
+#: wp-includes/comment.php:3359
 msgid "Comment URL"
 msgstr "رابط التعليق"
 
-#: wp-includes/comment.php:3356
+#: wp-includes/comment.php:3358
 msgid "Comment Content"
 msgstr "محتوى التعليق"
 
-#: wp-includes/comment.php:3355
+#: wp-includes/comment.php:3357
 msgid "Comment Date"
 msgstr "تاريخ التعليق"
 
-#: wp-includes/comment.php:3352
+#: wp-includes/comment.php:3354
 msgid "Comment Author URL"
 msgstr "رابط كاتب التعليق"
 
-#: wp-includes/comment.php:3350
+#: wp-includes/comment.php:3352
 msgid "Comment Author"
 msgstr "كاتب التعليق"
 
-#: wp-includes/comment.php:3315 wp-includes/comment.php:3424
+#: wp-includes/comment.php:3317 wp-includes/comment.php:3426
 msgid "WordPress Comments"
 msgstr "تعليقات ووردبريس"
 
-#: wp-includes/comment.php:3351
+#: wp-includes/comment.php:3353
 msgid "Comment Author Email"
 msgstr "البريد الإلكتروني لكاتب التعليق"
 
-#: wp-includes/comment.php:3353
+#: wp-includes/comment.php:3355
 msgid "Comment Author IP"
 msgstr "عنوان IP كاتب التعليق"
 
-#: wp-includes/comment.php:3354
+#: wp-includes/comment.php:3356
 msgid "Comment Author User Agent"
 msgstr "وكيل المستخدم لكاتب التعليق"
 
@@ -6769,7 +6769,7 @@ msgstr "ﻻ يمكن إنشاء تعليق موجود."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:403
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:420
-#: wp-includes/comment.php:3250
+#: wp-includes/comment.php:3252
 msgid "Sorry, you must be logged in to comment."
 msgstr "عذرًا، يجب أن تكون متصلًا لتتمكّن من التعليق."
 
@@ -7636,7 +7636,7 @@ msgstr "لا يبدو بأنك تملك أي إضافات في هذا الوقت
 msgid "Confirm use of weak password"
 msgstr "تأكيد استخدام كلمة مرور ضعيفة"
 
-#: wp-includes/formatting.php:4665
+#: wp-includes/formatting.php:4667
 msgid "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 msgstr "https://codex.wordpress.org/Using_Permalinks#Choosing_your_permalink_structure"
 
@@ -7645,7 +7645,7 @@ msgid "Image crop area preview. Requires mouse interaction."
 msgstr "معاينة منطقة اقتصاص الصورة، تتطلب تفاعل مؤشر الفأرة."
 
 #. translators: %s: Codex URL
-#: wp-includes/formatting.php:4664
+#: wp-includes/formatting.php:4666
 msgid "A structure tag is required when using custom permalinks. <a href=\"%s\">Learn more</a>"
 msgstr "وسم البناء مطلوب عند استخدام تركيبة روابط مُخصصة. <a href=\"%s\">تعرف على المزيد</a>"
 
@@ -8651,7 +8651,7 @@ msgstr "تبديل قسم: %s"
 #. Asian characters), enter 'characters_excluding_spaces' or
 #. 'characters_including_spaces'. Otherwise, enter 'words'. Do not translate
 #. into your own language.
-#: wp-includes/script-loader.php:2091 wp-includes/formatting.php:3751
+#: wp-includes/script-loader.php:2091 wp-includes/formatting.php:3753
 #: wp-includes/js/dist/editor.js:29052
 msgctxt "Word count type. Do not translate!"
 msgid "words"
@@ -10087,7 +10087,7 @@ msgstr "الودجات هي أقسام مستقلة للمحتوى، يمكن و
 msgid "You are customizing %s"
 msgstr "أنت الآن تقوم بتخصيص %s"
 
-#: wp-includes/comment.php:3299
+#: wp-includes/comment.php:3301
 msgid "<strong>ERROR</strong>: The comment could not be saved. Please try again later."
 msgstr "<strong>خطأ</strong>: تعذّر حفظ التعليق. يُرجى المحاولة لاحقاً."
 
@@ -11207,7 +11207,7 @@ msgstr "فشل"
 
 #. translators: Time difference between two dates, in weeks. %s: Number of
 #. weeks
-#: wp-includes/formatting.php:3638
+#: wp-includes/formatting.php:3640
 msgid "%s week"
 msgid_plural "%s weeks"
 msgstr[0] "%s أسبوع"
@@ -11219,7 +11219,7 @@ msgstr[5] "%s أسبوع"
 
 #. translators: Time difference between two dates, in months. %s: Number of
 #. months
-#: wp-includes/formatting.php:3645
+#: wp-includes/formatting.php:3647
 msgid "%s month"
 msgid_plural "%s months"
 msgstr[0] "%s شهر"
@@ -11231,7 +11231,7 @@ msgstr[5] "%s شهر"
 
 #. translators: Time difference between two dates, in years. %s: Number of
 #. years
-#: wp-includes/formatting.php:3652
+#: wp-includes/formatting.php:3654
 msgid "%s year"
 msgid_plural "%s years"
 msgstr[0] "%s سنة"
@@ -12276,7 +12276,7 @@ msgid "&#8221;"
 msgstr "&#8221;"
 
 #. translators: opening curly double quote
-#: wp-includes/formatting.php:98 wp-includes/formatting.php:5228
+#: wp-includes/formatting.php:98 wp-includes/formatting.php:5230
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8220;"
@@ -12384,15 +12384,15 @@ msgstr "تجاوز %s حجم الرفع الأقصى في هذا الموقع."
 msgid "Feedback"
 msgstr "طلبات واقتراحات"
 
-#: wp-includes/comment.php:3285
+#: wp-includes/comment.php:3287
 msgid "<strong>ERROR</strong>: please type a comment."
 msgstr "<strong>خطأ</strong>: الرجاء كتابة تعليق."
 
-#: wp-includes/comment.php:3258
+#: wp-includes/comment.php:3260
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>خطأ</strong>: يرجى ملء الحقول المطلوبة (الاسم، البريد الإلكتروني)."
 
-#: wp-includes/comment.php:3260
+#: wp-includes/comment.php:3262
 msgid "<strong>ERROR</strong>: please enter a valid email address."
 msgstr "<strong>خطأ</strong>: رجاءاً تأكد من البريد الإلكتروني."
 
@@ -12416,7 +12416,7 @@ msgstr "وثائق المساعدة"
 msgid "Support Forums"
 msgstr "منتديات الدعم الفني"
 
-#: wp-includes/general-template.php:3953 wp-includes/formatting.php:3740
+#: wp-includes/general-template.php:3953 wp-includes/formatting.php:3742
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -12486,7 +12486,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "الأزرق"
 
-#: wp-includes/formatting.php:4646
+#: wp-includes/formatting.php:4648
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "المنطقة الزمنية التي أدخلتها غير صالحة. المرجو تحديد منطقة زمنية صالحة."
 
@@ -12907,7 +12907,7 @@ msgid "You have searched the %1$s blog archives for <strong>&#8216;%2$s&#8217;</
 msgstr "بحثت في أرشيفات %1$s عن <strong>&#8216;%2$s&#8217;</strong>. إذا لم تجد نتائج بحث مناسبة حاول أن تستخدم احد الروابط التالية."
 
 #. translators: used to join items in a list with only 2 items
-#: wp-includes/formatting.php:4909
+#: wp-includes/formatting.php:4911
 msgid "%1$s and %2$s"
 msgstr "%1$s و %2$s"
 
@@ -13176,15 +13176,15 @@ msgstr "هذا الموقع تمت أرشفته أو تم إيقافه."
 msgid "The given object ID is not that of a menu item."
 msgstr "رقم تعريف الكائن (ID) ليس من ضمن عناصر القائمة."
 
-#: wp-includes/formatting.php:4587
+#: wp-includes/formatting.php:4589
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "عنوان الموقع الذي قمت بإدخاله لا يبدو صحيحاً. من فضلك قم بإدخال عنوان صحيح."
 
-#: wp-includes/formatting.php:4574
+#: wp-includes/formatting.php:4576
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "الرابط الذي أدخلته لا يبدو صحيحاً. من فضلك، أدخل رابط صحيح."
 
-#: wp-includes/formatting.php:4464
+#: wp-includes/formatting.php:4466
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "عنوان البريد الإلكتروني الذي قمت بإدخاله لا يبدو صحيحاً. من فضلك قم بإدخال عنوان بريد إلكتروني صحيح."
 
@@ -15134,7 +15134,7 @@ msgid "The URL you entered seems to be an email address. Do you want to add the 
 msgstr "عنوان الرابط الذي أدخلته يبدو وكأنّه عنوان بريد إلكتروني. هل ترغب في إضافة بادئة mailto: ؟"
 
 #. translators: Time difference between two dates, in days. %s: Number of days
-#: wp-includes/formatting.php:3631
+#: wp-includes/formatting.php:3633
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s يوم"
@@ -15268,7 +15268,7 @@ msgstr "&laquo;"
 #. translators: Time duration in hour or hours.
 #. translators: Time difference between two dates, in hours. %s: Number of
 #. hours
-#: wp-includes/functions.php:377 wp-includes/formatting.php:3624
+#: wp-includes/functions.php:377 wp-includes/formatting.php:3626
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s ساعة"
@@ -15280,7 +15280,7 @@ msgstr[5] "%s ساعة"
 
 #. translators: Time difference between two dates, in minutes (min=minute). %s:
 #. Number of minutes
-#: wp-includes/formatting.php:3617
+#: wp-includes/formatting.php:3619
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s دقيقة"
@@ -15955,7 +15955,7 @@ msgid "Pingback"
 msgstr "التنبيهات \"Pingback\""
 
 #. translators: Name of a comment's author after being anonymized.
-#: wp-includes/comment.php:3470 wp-includes/class-wp-theme.php:835
+#: wp-includes/comment.php:3472 wp-includes/class-wp-theme.php:835
 #: wp-includes/comment-template.php:31
 msgid "Anonymous"
 msgstr "غير معروف"
@@ -16066,7 +16066,7 @@ msgstr "انتهى"
 msgid "Search"
 msgstr "بحث"
 
-#: wp-includes/script-loader.php:1485 wp-includes/comment.php:3400
+#: wp-includes/script-loader.php:1485 wp-includes/comment.php:3402
 msgid "Comments"
 msgstr "تعليقات"
 
