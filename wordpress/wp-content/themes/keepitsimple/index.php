@@ -8,7 +8,9 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Keep It Simple.</title>
+	<title>
+    <?php echo bloginfo("name");  ?>
+  </title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -41,8 +43,12 @@
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="index.html" title="">Keep It Simple.</a></h1>
-			  	<p id="intro">Put your awesome slogan here...</p>
+		      <h1 id="logo-text"><a href="index.html" title="">
+            <?php bloginfo("name");  ?>
+          </a></h1>
+			  	<p id="intro" style="color:#000;">
+            <?php  bloginfo("description");  ?>
+          </p>
 			</div>
 
 	   </div>
