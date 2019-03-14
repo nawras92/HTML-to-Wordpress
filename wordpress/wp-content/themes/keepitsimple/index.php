@@ -18,8 +18,7 @@
 
    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="assets/css/keepitsimple.css">
-
+   <link rel="stylesheet" href="<?php echo  get_template_directory_uri();?>/assets/css/keepitsimple.css">
 
    <!-- Script
    ================================================== -->
@@ -33,6 +32,7 @@
 
 <body>
 
+  <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
    <!-- Header
    ================================================== -->
    <header id="top">
@@ -42,8 +42,7 @@
    		<div class="header-content twelve columns">
 
 		      <h1 id="logo-text"><a href="index.html" title="">Keep It Simple.</a></h1>
-				<p id="intro">Put your awesome slogan here...</p>
-
+			  	<p id="intro">Put your awesome slogan here...</p>
 			</div>
 
 	   </div>
@@ -51,7 +50,6 @@
 	   <nav id="nav-wrap">
 
 	   	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
-		   <a class="mobile-btn" href="#" title="Hide navigation">Hide Menu</a>
 
 	   	<div class="row">
 
