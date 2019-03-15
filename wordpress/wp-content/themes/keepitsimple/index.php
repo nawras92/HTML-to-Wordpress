@@ -9,7 +9,7 @@
    ================================================== -->
    <meta charset="utf-8">
 	<title>
-    <?php echo bloginfo("name");  ?>
+    <?php bloginfo("name");  ?>
   </title>
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -43,7 +43,7 @@
 
    		<div class="header-content twelve columns">
 
-		      <h1 id="logo-text"><a href="index.html" title="">
+		      <h1 id="logo-text"><a href="<?php echo site_url(); ?>" title="">
             <?php bloginfo("name");  ?>
           </a></h1>
 			  	<p id="intro" style="color:#000;">
