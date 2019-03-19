@@ -96,6 +96,17 @@
 
    		<div id="main" class="eight columns">
 
+        <?php
+
+            if (have_posts()):
+              echo "There are articles";
+            else:
+              echo "There are NO articles";
+            endif;
+
+        ?>
+
+
 	   		<article class="entry">
 
 					<header class="entry-header">
