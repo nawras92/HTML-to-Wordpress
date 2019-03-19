@@ -17,8 +17,13 @@
 
    <!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="<?php echo  get_template_directory_uri();?>/assets/css/keepitsimple.css">
-   <link rel="stylesheet" href="<?php echo  get_template_directory_uri();?>/assets/css/keepitsimple-rtl.css">
+
+   <?php if (is_rtl()): ?>
+       <link rel="stylesheet" href="<?php echo  get_template_directory_uri();?>/assets/css/keepitsimple-rtl.css">
+    <?php else: ?>
+       <link rel="stylesheet" href="<?php echo  get_template_directory_uri();?>/assets/css/keepitsimple.css">
+    <?php endif; ?>
+
 
    <!-- Script
    ================================================== -->
