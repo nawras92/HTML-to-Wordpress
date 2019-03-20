@@ -99,13 +99,15 @@
         <?php
 
             if (have_posts()):
-              echo "There are articles";
+              while(have_posts()):
+                the_post();
+                the_title();
+              endwhile;
             else:
               echo "There are NO articles";
             endif;
 
         ?>
-
 
 	   		<article class="entry">
 
