@@ -33,6 +33,7 @@
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
 
+  <?php wp_head(); ?>
 </head>
 
 <body>
