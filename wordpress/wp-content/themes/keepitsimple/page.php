@@ -27,12 +27,6 @@
                         <ul>
                           <li><?php the_date(); ?></li>
                           <span class="meta-sep">&bull;</span>
-                          <li>
-                            <a href="#" title="" rel="category tag">
-                              <?php the_category(" "); ?>
-                            </a>,
-                          </li>
-                          <span class="meta-sep">&bull;</span>
                           <li><?php the_author(); ?></li>
                         </ul>
                       </div>
