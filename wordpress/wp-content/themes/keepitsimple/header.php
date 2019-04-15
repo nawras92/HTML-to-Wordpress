@@ -59,9 +59,10 @@
           </p>
 			</div>
 
-	   </div>
+    </div>
 
-	   <nav id="nav-wrap">
+
+	   <nav id="nav-wrap" <?php if (is_admin_bar_showing()){echo 'style="top:38px;"';}?> >
 
 	   	<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show Menu</a>
 
